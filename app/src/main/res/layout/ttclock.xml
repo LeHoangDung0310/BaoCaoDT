@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:background="#EAE8E8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+       <Toolbar
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:background="@drawable/toolbar_border">
+
+           <ImageButton
+               android:id="@+id/rightImageButton"
+               android:layout_width="60dp"
+               android:layout_height="60dp"
+               android:layout_alignParentEnd="true"
+               android:layout_marginStart="-100dp"
+               android:scaleType="fitEnd"
+               android:src="@drawable/img"
+               tools:ignore="ContentDescription,ObsoleteLayoutParam,SpeakableTextPresentCheck" />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="MYWATCHES"
+                   android:textSize="23dp"
+                   tools:ignore="HardcodedText,SpUsage" />
+
+           <ImageButton
+               android:id="@+id/rightImageButton1"
+               android:layout_width="57dp"
+               android:layout_height="56dp"
+               android:layout_gravity="end"
+               android:layout_marginEnd="1dp"
+               android:scaleType="fitEnd"
+               android:src="@drawable/img_3"
+               tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+           <ImageButton
+               android:id="@+id/rightImageButton2"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:layout_gravity="end"
+               android:layout_marginEnd="1dp"
+               android:scaleType="fitEnd"
+               android:src="@drawable/img_1"
+               tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+           <ImageButton
+               android:id="@+id/rightImageButton3"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:layout_gravity="end"
+               android:layout_marginEnd="1dp"
+               android:scaleType="fitEnd"
+               android:src="@drawable/img_2"
+               tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+       </Toolbar>
+        <Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="22dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trang chủ > CASIO EFB-510JBL-7AVDR – NAM"
+                android:textSize="12dp"
+                tools:ignore="HardcodedText,SpUsage" />
+        </Toolbar>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        tools:ignore="UselessLeaf">
+
+        <RelativeLayout
+            android:id="@+id/a23"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:background="@drawable/toolbar_border"
+            tools:ignore="TextSizeCheck">
+
+            <ImageButton
+                android:id="@+id/mk23"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_centerInParent="true"
+                android:scaleType="fitEnd"
+                android:src="@drawable/img_16"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CASIO EFB-510JBL-7AVDR"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="19dp"
+        tools:ignore="HardcodedText,RtlHardcoded">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9.500.000đ"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="19dp"
+        tools:ignore="HardcodedText,RtlHardcoded">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thông tin sản phẩm"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="55dp"
+        android:textSize="19dp"
+        tools:ignore="HardcodedText,RtlHardcoded">
+    </TextView>
+    <TextView
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:text="Mẫu Casio EFB-510JBL-7AVDR thể thao với kiểu dáng 6 kim đi kèm tính năng Chronograph tạo nên vẻ nam tính nhưng cũng không kém phần lịch lãm với bộ dây da nâu có vân."
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="19dp"
+        tools:ignore="HardcodedText,RtlHardcoded">
+    </TextView>
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Thương hiệu: Casio
+                        Xuất xứ: Nhật Bản
+                        Giới tính: Nam
+                        Kính: Sapphire
+                        Bảo hành: 1 năm"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="19dp"
+        tools:ignore="HardcodedText,RtlHardcoded">
+    </TextView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="683dp"
+        tools:ignore="UselessLeaf">
+
+        <RelativeLayout
+            android:id="@+id/r11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/toolbar_border"
+            tools:ignore="TextSizeCheck">
+
+            <Button
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="Thêm vào giỏ"
+                android:textSize="20sp"
+                android:background="@color/black"
+                android:id="@+id/mua_hang_ngay_button"/>
+
+            <Button
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/mua_hang_ngay_button"
+                android:text="Mua hàng ngay"
+                android:layout_marginLeft="30dp"
+                android:background="@color/blue"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

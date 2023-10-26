@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:background="#EAE8E8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+       <Toolbar
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:background="@drawable/toolbar_border">
+
+           <ImageButton
+               android:id="@+id/rightImageButton"
+               android:layout_width="60dp"
+               android:layout_height="60dp"
+               android:layout_alignParentEnd="true"
+               android:layout_marginStart="-100dp"
+               android:scaleType="fitEnd"
+               android:src="@drawable/img"
+               tools:ignore="ContentDescription,ObsoleteLayoutParam,SpeakableTextPresentCheck" />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="MYWATCHES"
+                   android:textSize="23dp"
+                   tools:ignore="HardcodedText,SpUsage" />
+
+           <ImageButton
+               android:id="@+id/rightImageButton1"
+               android:layout_width="57dp"
+               android:layout_height="56dp"
+               android:layout_gravity="end"
+               android:layout_marginEnd="1dp"
+               android:scaleType="fitEnd"
+               android:src="@drawable/img_3"
+               tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+           <ImageButton
+               android:id="@+id/rightImageButton2"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:layout_gravity="end"
+               android:layout_marginEnd="1dp"
+               android:scaleType="fitEnd"
+               android:src="@drawable/img_1"
+               tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+           <ImageButton
+               android:id="@+id/rightImageButton3"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:layout_gravity="end"
+               android:layout_marginEnd="1dp"
+               android:scaleType="fitEnd"
+               android:src="@drawable/img_2"
+               tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+       </Toolbar>
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/toolbar_border"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="675dp"
+        android:layout_marginBottom="0dp">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:scaleType="fitEnd"
+            android:src="@drawable/img_4"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:scaleType="fitEnd"
+            android:src="@drawable/img_5"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="46dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:scaleType="fitEnd"
+            android:src="@drawable/img_6"
+            tools:ignore="ContentDescription,RtlHardcoded,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="right"
+        android:layout_marginTop="66dp"
+        android:src="@drawable/ro1"
+        tools:ignore="ContentDescription,RtlHardcoded,VisualLintBounds" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="220dp"
+        tools:ignore="UselessLeaf">
+
+        <RelativeLayout
+            android:id="@+id/a1"
+            android:layout_width="120dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="25dp"
+            android:background="@drawable/toolbar_border"
+            tools:ignore="TextSizeCheck">
+
+            <ImageButton
+                android:id="@+id/mk"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="3dp"
+                android:scaleType="fitEnd"
+                android:src="@drawable/img_25"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/mk"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="Hàng chính hãng chất lượng cao"
+                tools:ignore="HardcodedText" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/a11"
+            android:layout_width="120dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="150dp"
+            android:background="@drawable/toolbar_border"
+            tools:ignore="TextSizeCheck">
+
+            <ImageButton
+                android:id="@+id/mk1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="3dp"
+                android:scaleType="fitEnd"
+                android:src="@drawable/img_23"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/mk1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="2dp"
+                android:layout_centerInParent="true"
+                android:text="Miễn phí giao hàng với hơn > 500k"
+                tools:ignore="HardcodedText" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/a12"
+            android:layout_width="120dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="275dp"
+            android:background="@drawable/toolbar_border"
+            tools:ignore="TextSizeCheck">
+
+            <ImageButton
+                android:id="@+id/mk2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="3dp"
+                android:scaleType="fitEnd"
+                android:src="@drawable/img_24"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/mk2"
+                android:layout_marginLeft="10dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:text="Đổi hàng 30 ngày thủ tục đơn giản"
+                tools:ignore="HardcodedText" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SẢN PHẨM MỚI"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="19dp"
+        tools:ignore="HardcodedText,RtlHardcoded">
+    </TextView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_marginTop="420dp"
+        tools:ignore="UselessLeaf">
+
+        <RelativeLayout
+            android:id="@+id/a23"
+            android:layout_width="180dp"
+            android:layout_height="190dp"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/toolbar_border"
+            tools:ignore="TextSizeCheck">
+
+            <ImageButton
+                android:id="@+id/mk23"
+                android:layout_width="68dp"
+                android:layout_height="74dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitEnd"
+                android:src="@drawable/img_16"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/mk23"
+                android:layout_centerHorizontal="true"
+                android:text="CASIO MTP-1381D-1AVDF – NAM – QUARTZ (PIN) – MẶT SỐ 39.9 MM"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="150dp"
+                android:text="4.500.000đ"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/a24"
+            android:layout_width="180dp"
+            android:layout_height="190dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="400dp"
+            android:layout_toRightOf="@id/a23"
+            android:background="@drawable/toolbar_border"
+            tools:ignore="RtlHardcoded,TextSizeCheck">
+
+            <ImageButton
+                android:id="@+id/mk123"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitEnd"
+                android:src="@drawable/img_16"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/mk123"
+                android:layout_centerHorizontal="true"
+                android:text="CASIO MTP-1381D-1AVDF – NAM – QUARTZ (PIN) – MẶT SỐ 39.9 MM"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="150dp"
+                android:text="4.500.000đ"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:background="#EAE8E8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+       <Toolbar
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:background="@drawable/toolbar_border">
+
+           <ImageButton
+               android:id="@+id/rightImageButton"
+               android:layout_width="60dp"
+               android:layout_height="60dp"
+               android:layout_alignParentEnd="true"
+               android:layout_marginStart="-100dp"
+               android:scaleType="fitEnd"
+               android:src="@drawable/img"
+               tools:ignore="ContentDescription,ObsoleteLayoutParam,SpeakableTextPresentCheck" />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="MYWATCHES"
+                   android:textSize="23dp"
+                   tools:ignore="HardcodedText,SpUsage" />
+
+           <ImageButton
+               android:id="@+id/rightImageButton1"
+               android:layout_width="57dp"
+               android:layout_height="56dp"
+               android:layout_gravity="end"
+               android:layout_marginEnd="1dp"
+               android:scaleType="fitEnd"
+               android:src="@drawable/img_3"
+               tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+           <ImageButton
+               android:id="@+id/rightImageButton2"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:layout_gravity="end"
+               android:layout_marginEnd="1dp"
+               android:scaleType="fitEnd"
+               android:src="@drawable/img_1"
+               tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+           <ImageButton
+               android:id="@+id/rightImageButton3"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:layout_gravity="end"
+               android:layout_marginEnd="1dp"
+               android:scaleType="fitEnd"
+               android:src="@drawable/img_2"
+               tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+       </Toolbar>
+        <Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="22dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trang chủ > Tài khoản"
+                android:textSize="12dp"
+                tools:ignore="HardcodedText,SpUsage" />
+        </Toolbar>
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/toolbar_border"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="675dp"
+        android:layout_marginBottom="0dp">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:scaleType="fitEnd"
+            android:src="@drawable/img_4"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:scaleType="fitEnd"
+            android:src="@drawable/img_5"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="46dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:scaleType="fitEnd"
+            android:src="@drawable/img_6"
+            tools:ignore="ContentDescription,RtlHardcoded,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THÔNG TIN TÀI KHOẢN"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="10dp"
+        tools:ignore="HardcodedText,RtlHardcoded">
+    </TextView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="120dp"
+        tools:ignore="UselessLeaf">
+
+        <RelativeLayout
+            android:id="@+id/a1"
+            android:layout_width="150dp"
+            android:layout_height="78dp"
+            android:layout_marginStart="45dp"
+            android:background="@drawable/toolbar_border"
+            tools:ignore="TextSizeCheck">
+
+            <ImageButton
+                android:id="@+id/mk"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitEnd"
+                android:src="@drawable/img_7"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/mk"
+                android:layout_centerHorizontal="true"
+                android:text="Thay đổi mật khẩu"
+                tools:ignore="HardcodedText" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/a2"
+            android:layout_width="150dp"
+            android:layout_height="78dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="400dp"
+            android:layout_toRightOf="@id/a1"
+            android:background="@drawable/toolbar_border"
+            tools:ignore="RtlHardcoded,TextSizeCheck">
+
+            <ImageButton
+                android:id="@+id/mk1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitEnd"
+                android:src="@drawable/img_8"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/mk1"
+                android:layout_centerHorizontal="true"
+                android:text="Thay đổi số địa chỉ"
+                tools:ignore="HardcodedText" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ĐƠN ĐẶT HÀNG CỦA TÔI"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="10dp"
+        tools:ignore="HardcodedText,RtlHardcoded">
+    </TextView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="245dp"
+        tools:ignore="UselessLeaf">
+
+        <RelativeLayout
+            android:id="@+id/a11"
+            android:layout_width="150dp"
+            android:layout_height="78dp"
+            android:layout_marginStart="45dp"
+            android:background="@drawable/toolbar_border"
+            tools:ignore="TextSizeCheck">
+
+            <ImageButton
+                android:id="@+id/mk11"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitEnd"
+                android:src="@drawable/img_9"
+                tools:ignore="ContentDescription,RtlHardcoded,SpeakableTextPresentCheck" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/mk11"
+                android:layout_centerHorizontal="true"
+                android:text="Xem lịch sử đặt hàng"
+                tools:ignore="HardcodedText" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/a22"
+            android:layout_width="150dp"
+            android:layout_height="78dp"
+            android:layout_marginLeft="400dp"
+            android:layout_marginStart="20dp"
+            android:layout_toRightOf="@id/a11"
+            android:background="@drawable/toolbar_border"
+            tools:ignore="RtlHardcoded">
+
+            <ImageButton
+                android:id="@+id/mk22"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitEnd"
+                android:src="@drawable/img_10"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/mk22"
+                android:text="Tải về"
+                tools:ignore="HardcodedText" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="357dp"
+        tools:ignore="UselessLeaf">
+
+        <RelativeLayout
+            android:id="@+id/a111"
+            android:layout_width="150dp"
+            android:layout_height="78dp"
+            android:layout_marginStart="45dp"
+            android:background="@drawable/toolbar_border">
+
+            <ImageButton
+                android:id="@+id/mk111"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitEnd"
+                android:src="@drawable/img_11"
+                tools:ignore="ContentDescription,RtlHardcoded,SpeakableTextPresentCheck" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/mk111"
+                android:text="Tiền thưởng"
+                tools:ignore="HardcodedText" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/a222"
+            android:layout_width="150dp"
+            android:layout_height="78dp"
+            android:layout_marginLeft="400dp"
+            android:layout_marginStart="20dp"
+            android:layout_toRightOf="@id/a111"
+            android:background="@drawable/toolbar_border"
+            tools:ignore="RtlHardcoded">
+
+            <ImageButton
+                android:id="@+id/mk222"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitEnd"
+                android:src="@drawable/img_12"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/mk222"
+                android:text="Yêu cầu trả hàng"
+                tools:ignore="HardcodedText" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="466dp"
+        tools:ignore="UselessLeaf">
+
+        <RelativeLayout
+            android:id="@+id/a1111"
+            android:layout_width="150dp"
+            android:layout_height="78dp"
+            android:layout_marginStart="45dp"
+            android:background="@drawable/toolbar_border"
+            tools:ignore="TextSizeCheck">
+
+            <ImageButton
+                android:id="@+id/mk1111"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitEnd"
+                android:src="@drawable/img_13"
+                tools:ignore="ContentDescription,RtlHardcoded,SpeakableTextPresentCheck" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/mk1111"
+                android:layout_centerHorizontal="true"
+                android:text="Giao dịch của bạn"
+                tools:ignore="HardcodedText" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/a2222"
+            android:layout_width="150dp"
+            android:layout_height="78dp"
+            android:layout_marginLeft="400dp"
+            android:layout_marginStart="20dp"
+            android:layout_toRightOf="@id/a1111"
+            android:background="@drawable/toolbar_border"
+            tools:ignore="RtlHardcoded">
+
+            <ImageButton
+                android:id="@+id/mk2222"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitEnd"
+                android:src="@drawable/img_14"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/mk2222"
+                android:text="Đăng xuất"
+                tools:ignore="HardcodedText" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

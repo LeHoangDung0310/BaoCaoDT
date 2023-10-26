@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:background="#EAE8E8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+       <Toolbar
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:background="@drawable/toolbar_border">
+
+           <ImageButton
+               android:id="@+id/rightImageButton"
+               android:layout_width="60dp"
+               android:layout_height="60dp"
+               android:layout_alignParentEnd="true"
+               android:layout_marginStart="-100dp"
+               android:scaleType="fitEnd"
+               android:src="@drawable/img"
+               tools:ignore="ContentDescription,ObsoleteLayoutParam,SpeakableTextPresentCheck" />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="MYWATCHES"
+                   android:textSize="23dp"
+                   tools:ignore="HardcodedText,SpUsage" />
+
+           <ImageButton
+               android:id="@+id/rightImageButton1"
+               android:layout_width="57dp"
+               android:layout_height="56dp"
+               android:layout_gravity="end"
+               android:layout_marginEnd="1dp"
+               android:scaleType="fitEnd"
+               android:src="@drawable/img_3"
+               tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+           <ImageButton
+               android:id="@+id/rightImageButton2"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:layout_gravity="end"
+               android:layout_marginEnd="1dp"
+               android:scaleType="fitEnd"
+               android:src="@drawable/img_1"
+               tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+           <ImageButton
+               android:id="@+id/rightImageButton3"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:layout_gravity="end"
+               android:layout_marginEnd="1dp"
+               android:scaleType="fitEnd"
+               android:src="@drawable/img_2"
+               tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+       </Toolbar>
+        <Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="22dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trang chủ > Giỏ hàng > Thanh toán"
+                android:textSize="12dp"
+                tools:ignore="HardcodedText,SpUsage" />
+        </Toolbar>
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/toolbar_border"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="675dp"
+        android:layout_marginBottom="0dp">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:scaleType="fitEnd"
+            android:src="@drawable/img_4"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:scaleType="fitEnd"
+            android:src="@drawable/img_5"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="46dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:scaleType="fitEnd"
+            android:src="@drawable/img_6"
+            tools:ignore="ContentDescription,RtlHardcoded,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_marginTop="170dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="120dp"
+        android:layout_gravity="right"
+        android:src="@drawable/img_15" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:textColor="@color/xanh"
+        android:layout_centerHorizontal="true"
+        android:text="Đặt hàng thành công !"
+        android:textSize="18dp"
+        tools:ignore="HardcodedText,SpUsage" />
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:textColor="@color/black"
+            android:layout_centerHorizontal="true"
+            android:text="Đơn hàng của quý khách đã đặt hàng thành, MYWATCHES sẽ sớm liên hệ với quý để bàn giao sản phẩm"
+            android:textSize="18dp"
+            tools:ignore="HardcodedText,SpUsage" />
+    </RelativeLayout>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="580dp"
+        android:layout_marginLeft="60dp"
+        android:text="Trở về Trang chủ"
+        android:textSize="20dp">
+    </Button>
+</RelativeLayout>

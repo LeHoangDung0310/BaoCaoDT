@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:background="#EAE8E8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+       <Toolbar
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:background="@drawable/toolbar_border">
+
+           <ImageButton
+               android:id="@+id/rightImageButton"
+               android:layout_width="60dp"
+               android:layout_height="60dp"
+               android:layout_alignParentEnd="true"
+               android:layout_marginStart="-100dp"
+               android:scaleType="fitEnd"
+               android:src="@drawable/img"
+               tools:ignore="ContentDescription,ObsoleteLayoutParam,SpeakableTextPresentCheck" />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="MYWATCHES"
+                   android:textSize="23dp"
+                   tools:ignore="HardcodedText,SpUsage" />
+
+           <ImageButton
+               android:id="@+id/rightImageButton1"
+               android:layout_width="57dp"
+               android:layout_height="56dp"
+               android:layout_gravity="end"
+               android:layout_marginEnd="1dp"
+               android:scaleType="fitEnd"
+               android:src="@drawable/img_3"
+               tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+           <ImageButton
+               android:id="@+id/rightImageButton2"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:layout_gravity="end"
+               android:layout_marginEnd="1dp"
+               android:scaleType="fitEnd"
+               android:src="@drawable/img_1"
+               tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+           <ImageButton
+               android:id="@+id/rightImageButton3"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:layout_gravity="end"
+               android:layout_marginEnd="1dp"
+               android:scaleType="fitEnd"
+               android:src="@drawable/img_2"
+               tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+       </Toolbar>
+        <Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="22dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trang chủ > Giỏ hàng"
+                android:textSize="12dp"
+                tools:ignore="HardcodedText,SpUsage" />
+        </Toolbar>
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/toolbar_border"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="675dp"
+        android:layout_marginBottom="0dp">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:scaleType="fitEnd"
+            android:src="@drawable/img_4"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:scaleType="fitEnd"
+            android:src="@drawable/img_5"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="46dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:scaleType="fitEnd"
+            android:src="@drawable/img_6"
+            tools:ignore="ContentDescription,RtlHardcoded,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GIỎ HÀNG CỦA BẠN"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="10dp"
+        tools:ignore="HardcodedText,RtlHardcoded">
+    </TextView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="120dp"
+        tools:ignore="UselessLeaf">
+
+        <RelativeLayout
+            android:id="@+id/a1"
+            android:layout_width="360dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/toolbar_border"
+            tools:ignore="TextSizeCheck">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Hình ảnh    Tên sản phẩm               Số lượng     Tổng cộng"
+                tools:ignore="HardcodedText" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="165dp"
+        tools:ignore="UselessLeaf">
+        <RelativeLayout
+            android:id="@+id/a11"
+            android:layout_width="360dp"
+            android:layout_height="78dp"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/toolbar_border"
+            tools:ignore="TextSizeCheck">
+
+            <ImageView
+                android:id="@+id/mk11"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="4dp"
+                android:scaleType="fitEnd"
+                android:src="@drawable/img_16"
+                tools:ignore="ContentDescription,RtlHardcoded,SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/mk111"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/mk11"
+                android:layout_centerVertical="true"
+                android:text="CASIO EFB-510JBL-7AVDR–NAM–KÍNH SAPPHIRE–QUARTZ (PIN)–DÂY DA"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:id="@+id/mk1111"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@id/mk111"
+                android:layout_centerVertical="true"
+                android:text="x1"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@id/mk1111"
+                android:layout_centerVertical="true"
+                android:text="9.500.000đ"
+                tools:ignore="HardcodedText" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="580dp"
+        android:layout_marginLeft="60dp"
+        android:text="Thanh toán"
+        android:textSize="20dp">
+    </Button>
+</RelativeLayout>

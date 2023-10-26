@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:background="#EAE8E8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+       <Toolbar
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:background="@drawable/toolbar_border">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="GIỎ HÀNG CỦA BẠN"
+               android:textSize="23dp"
+               tools:ignore="HardcodedText,SpUsage" />
+
+           <ImageButton
+               android:id="@+id/rightImageButton1"
+               android:layout_width="47dp"
+               android:layout_height="46dp"
+               android:layout_gravity="end"
+               android:layout_marginEnd="1dp"
+               android:scaleType="fitEnd"
+               android:src="@drawable/img_17"
+               tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+       </Toolbar>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="62dp"
+        tools:ignore="UselessLeaf">
+        <RelativeLayout
+            android:id="@+id/a11"
+            android:layout_width="410dp"
+            android:layout_height="78dp"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/toolbar_border"
+            tools:ignore="TextSizeCheck">
+
+            <ImageView
+                android:id="@+id/mk11"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="4dp"
+                android:scaleType="fitEnd"
+                android:src="@drawable/img_16"
+                tools:ignore="ContentDescription,RtlHardcoded,SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/mk111"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/mk11"
+                android:layout_centerVertical="true"
+                android:text="CASIO EFB-510JBL-7AVDR–NAM–KÍNH SAPPHIRE–QUARTZ (PIN)–DÂY DA"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:id="@+id/mk1111"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@id/mk111"
+                android:layout_centerVertical="true"
+                android:text="x1"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:id="@+id/mk12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@id/mk1111"
+                android:layout_centerVertical="true"
+                android:text="9.500.000đ"
+                tools:ignore="HardcodedText" />
+            <ImageButton
+                android:id="@+id/rightImageButton2"
+                android:layout_width="47dp"
+                android:layout_height="46dp"
+                android:layout_marginLeft="15dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/mk12"
+                android:scaleType="fitEnd"
+                android:src="@drawable/img_17"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="500dp"
+        tools:ignore="UselessLeaf">
+        <RelativeLayout
+            android:layout_width="410dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/toolbar_border"
+            tools:ignore="TextSizeCheck">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="Thành tiền  9.500.000đ"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="30dp"
+                tools:ignore="HardcodedText" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="550dp"
+        tools:ignore="UselessLeaf">
+        <RelativeLayout
+            android:id="@+id/r111"
+            android:layout_width="410dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/toolbar_border"
+            tools:ignore="TextSizeCheck">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="Tổng  9.500.000đ"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="30dp"
+                tools:ignore="HardcodedText" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="599dp"
+        tools:ignore="UselessLeaf">
+        <RelativeLayout
+            android:id="@+id/r11"
+            android:layout_width="410dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/toolbar_border"
+            tools:ignore="TextSizeCheck">
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_centerHorizontal="true"
+                android:text="Xem giỏ hàng"
+                android:textSize="20dp"/>
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:layout_centerHorizontal="true"
+                android:text="Thanh toán"
+                android:textSize="20dp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

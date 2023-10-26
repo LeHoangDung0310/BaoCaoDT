@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/anhdh">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="right"
+        android:layout_marginTop="-29dp"
+        android:src="@drawable/ro1"
+        tools:ignore="ContentDescription,RtlHardcoded,VisualLintBounds" />
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="106dp"
+            android:textSize="30dp"
+            android:text="Sign up"
+            android:textColor="@color/white"
+            tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+        <TextView
+            android:layout_width="267dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="106dp"
+            android:layout_marginBottom="20dp"
+            android:text="Please enter your login detalls to sign in"
+            android:textColor="@color/white"
+            tools:ignore="HardcodedText,RtlHardcoded,TextSizeCheck" />
+        <EditText
+            android:padding="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Username"
+            android:background="@color/white"
+            android:textColorHint="@color/black"
+            tools:ignore="Autofill,HardcodedText,TextFields,TouchTargetSizeCheck,VisualLintTextFieldSize" />
+        <EditText
+            android:padding="15dp"
+            android:layout_marginBottom="15dp"
+            android:textColorHint="@color/black"
+            android:hint="Password"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            tools:ignore="Autofill,HardcodedText,TextFields,VisualLintTextFieldSize" />
+        <EditText
+            android:padding="15dp"
+            android:layout_marginBottom="15dp"
+            android:textColorHint="@color/black"
+            android:hint="Password Again"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            tools:ignore="Autofill,HardcodedText,TextFields,VisualLintTextFieldSize" />
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="15dp"
+            android:text="Login"
+            android:background="@drawable/round"
+            tools:ignore="HardcodedText,TextContrastCheck,VisualLintButtonSize" />
+        <TextView
+            android:layout_marginLeft="0dp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already a member ? Log in"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="119dp"
+        android:layout_marginTop="595dp"
+        android:layout_marginBottom="20dp"
+        android:text="---------  or contiune with  ---------"
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="640dp"
+        android:layout_marginBottom="30dp">
+
+        <ImageButton
+
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:scaleType="fitEnd"
+            android:src="@drawable/facebook"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:scaleType="fitEnd"
+            android:src="@drawable/gg"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:scaleType="fitEnd"
+            android:src="@drawable/zalo"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="46dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:scaleType="fitEnd"
+            android:src="@drawable/ti"
+            tools:ignore="ContentDescription,RtlHardcoded,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
